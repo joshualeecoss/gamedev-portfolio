@@ -3,29 +3,31 @@
     <h1>Resume</h1>
 
     <div class="paragraph">
-      I'm <strong>John Matrix</strong>, a former Delta Force operative with lots of experience, lots of training and huge muscles.
-      <br />After graduating from kindergarten, I've been enrolled in the army for 25 years, where I learned to destroy things in an amazing number of ways.
-      <br />I joined the Delta Force because I thought it was Greek lessons, but I quickly adapted to this unexpected environment and became a key element.
-      <br />I love teamwork, but I can also go in solo depending on the mission requirements.
+      I'm <strong>Joshua Coss</strong>, a former professional cook turned computer science student.
+      <br />After over a decade in the hospitality industry, I decided to turn my passion for video games
+      into a career.
+      <br />Throughout my years enrolled at MacEwan University, I have developed very strong skills in computer
+      programming and critical thinking.
+      <br />I am no stranger to fast paced, time sensitive environments, and know that great communication is key to get
+      things done.
       <br />
-      <br />Right now I'm trying to find inner peace after I've read some personal development books. I'm looking for a monk job so if you have any opportunity feel free to 
+      <br />Right now I'm looking to break into the games industry, so if you have any opportunity feel free to
       <router-link to="/contact">contact me</router-link>.
-      <br />
-      <br />Besides war, I'm passionate about firearms, martial arts, explosions, push-ups and flowers.
+
 
       <div style="margin-top:20px; margin-bottom:20px;">
-        <a class="download-link" href="d/resume-en.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Download as PDF 🇬🇧</a>
-        <a class="download-link" href="d/cv-fr.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Télécharger en PDF 🇫🇷</a>
+        <a class="download-link" href="d/resume.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i>
+          Download Resume as PDF</a>
         <div style="clear:both"></div>
       </div>
     </div>
-    <div class="photo">
+    <!-- <div class="photo">
       <img src="img/resume-photo.png" alt="Photo of John" />
-    </div>
+    </div> -->
 
     <div style="clear:both"></div>
 
-    <div class="full-content">
+    <!-- <div class="full-content">
       <h2>Work experience</h2>
 
       <h3>Operation Classified - Delta Force</h3>
@@ -92,7 +94,8 @@
         <div>I find it really soothing to just shoot at bad guys</div>
 
         <h3>I 🧡 Sports</h3>
-        <div>I used to be thin but then I ingested 10 kilos of steroids and proteins a day while doing 1000 push-ups.</div>
+        <div>I used to be thin but then I ingested 10 kilos of steroids and proteins a day while doing 1000 push-ups.
+        </div>
 
         <h3>I 💛 Politics</h3>
         <div>I hope I can have a career here someday but I might have temper issues.</div>
@@ -101,19 +104,19 @@
         <div>Especially the big ones, with the trunk and leaves.</div>
 
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 
 <script lang="ts">
 import Vue from "vue";
-import SkillRate from "@/components/SkillRate.vue";
+// import SkillRate from "@/components/SkillRate.vue";
 
 export default Vue.extend({
   name: "Resume",
-  components: {
-    SkillRate,
-  },
+  // components: {
+  //   SkillRate,
+  // },
 });
 </script>
 
@@ -125,6 +128,7 @@ h2 {
   padding: 0px;
   padding-top: 50px;
 }
+
 h3 {
   font-weight: 100;
   font-size: 1.6em;
@@ -132,6 +136,7 @@ h3 {
   padding: 0px;
   padding-top: 30px;
 }
+
 h4 {
   font-weight: 100;
   font-size: 1.3em;
@@ -146,7 +151,7 @@ h4 {
 }
 
 .download-link {
-  float:left;
+  float: left;
   margin-right: 50px;
 }
 
@@ -172,7 +177,7 @@ h4 {
   text-align: center;
 }
 
-@media only screen and (min-width: 620px){
+@media only screen and (min-width: 620px) {
   .paragraph {
     float: left;
   }
@@ -185,7 +190,7 @@ h4 {
 
   .skill-set {
     float: left;
-    padding-right: 60px; 
+    padding-right: 60px;
   }
 }
 </style>

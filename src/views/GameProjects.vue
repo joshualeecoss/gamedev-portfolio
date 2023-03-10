@@ -1,16 +1,15 @@
 <template>
   <div>
-    <h1>Stuff</h1>
+    <h1>Game Jams</h1>
 
     <div style="margin-bottom: 30px;">
-      The following are some stuff I've made or heavily contributed to.
+      The following are games that I created from scratch as part of online game jams.
+      These projects involve following along with a tutorial, and then making modifications
+      to the projects to further show what we've learned.
     </div>
 
     <ProjectsList v-bind:projects="projects" />
 
-    <div style="margin-top: 20px;">
-      There is more to see on <a target="_blank" href="https://someexternalwebsite.com">some external website</a>
-    </div>
   </div>
 </template>
 
