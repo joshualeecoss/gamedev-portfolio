@@ -3,9 +3,7 @@
     <h1>Other Game Projects</h1>
 
     <div style="margin-bottom: 30px;">
-      These are projects that I'm working on as part of the Game Design and Development
-      Specialization offered by MSU on <a
-        href="https://www.coursera.org/specializations/game-design-and-development">coursera.org</a>. </div>
+      These are projects that don't necessarily fall under jams. </div>
     <ProjectsList v-bind:projects="projects" />
   </div>
 </template>
