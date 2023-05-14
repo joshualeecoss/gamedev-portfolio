@@ -3,7 +3,7 @@
     <h1>Other Game Projects</h1>
 
     <div style="margin-bottom: 30px;">
-      These are projects that don't necessarily fall under jams. </div>
+      These are projects that don't necessarily fall under the category of jams. </div>
     <ProjectsList v-bind:projects="projects" />
   </div>
 </template>
