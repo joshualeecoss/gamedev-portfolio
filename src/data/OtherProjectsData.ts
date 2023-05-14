@@ -18,7 +18,7 @@ export default [
       </div>
 
       <div class="paragraph">
-          This project was one of 3 winners of the Unity Programming Challenge at the <a href="https://gamesjobfair.com/programming-challenges-unrealengine-unity#rec553225176" target="_blank">Games Job Fair Spring 2023</a> put on by Games Factory Talent. You slowly build up wealth by chopping down trees and upgrading your equipment, but the more efficient you are, the quicker the environment collapses.
+          This project was one of 3 winners of the Unity Programming Challenge at the <a href="https://gamesjobfair.com/programming-challenges-unrealengine-unity#rec553225176" target="_blank">Games Job Fair Spring 2023</a> put on by Games Factory Talents. You slowly build up wealth by chopping down trees and upgrading your equipment, but the more efficient you are, the quicker the environment collapses.
       </div>
 
       <div class="paragraph center">
