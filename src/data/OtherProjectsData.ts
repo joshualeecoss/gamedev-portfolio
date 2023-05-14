@@ -5,7 +5,7 @@ export default [
   <div class="paragraph">
       <strong>OverenLUMBERed</strong> is a 3D incremental game made using the Unity game engine. 
       <div class="notice">
-          Space Blaster! can be played in browser on <a href="https://vanity-project.itch.io/overenlumbered" target="_blank">itch.io</a>.
+          OverenLUMBERed can be played in browser on <a href="https://vanity-project.itch.io/overenlumbered" target="_blank">itch.io</a>.
           Source code is available on <a href="https://github.com/joshualeecoss/overenlumbered" target="_blank">GitHub</a>.
       </div>
       <br/>
