@@ -21,7 +21,7 @@
       </li>
       <li>
         <i class="fa fa-gamepad fa-lg fa-fw"></i>
-        <a href="https://vanity-project.itch.io/" target="_blank">itch.io</a>
+        <a href="https://cgvideogames.itch.io/" target="_blank">itch.io</a>
       </li>
     </ul>
 
