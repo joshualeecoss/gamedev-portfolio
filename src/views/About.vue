@@ -11,8 +11,8 @@
       </div>
 
       <div style="margin-top: 20px;">I've worked on some <router-link to="/game-projects">game jam projects</router-link>,
-        as well as <router-link to="/other-projects">other game projects</router-link> that I'm
-        currently working on through Coursera.</div>
+        as well as <router-link to="/other-projects">other game projects</router-link> that I've
+        worked on in my free time.</div>
 
       <div style="margin-top: 40px;">I'm <strong>currently looking for a job</strong> in an internship or entry level roll
         in order to kick off my career in the games industry. You can reach me at <a
