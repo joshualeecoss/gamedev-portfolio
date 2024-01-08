@@ -4,8 +4,6 @@
 
     <div style="margin-bottom: 30px;">
       The following are games that I created from scratch as part of online game jams.
-      These projects involve following along with a tutorial, and then making modifications
-      to the projects to further show what we've learned.
     </div>
 
     <ProjectsList v-bind:projects="projects" />
