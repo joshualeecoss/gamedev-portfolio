@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    
+
     <link rel="stylesheet" href="@/assets/projects/projects.css" type="text/css">
 
     <Header />
@@ -30,7 +30,8 @@ export default Vue.extend({
 Helpers.preloadImages([
   "img/projects/project-1-icon.png",
   "img/projects/project-2-icon.png",
-  "img/projects/project-3-icon.png"
+  "img/projects/project-3-icon.png",
+  "img/projects/project-4-icon.png"
 ]);
 
 </script>
