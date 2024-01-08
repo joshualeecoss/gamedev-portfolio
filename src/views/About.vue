@@ -14,7 +14,7 @@
         as well as <router-link to="/other-projects">other game projects</router-link> that I've
         worked on in my free time.</div>
 
-      <div style="margin-top: 40px;">I'm <strong>currently looking for a job</strong> in an internship or entry level roll
+      <div style="margin-top: 40px;">I'm <strong>currently looking for a job</strong> in an internship or entry level role
         in order to kick off my career in the games industry. You can reach me at <a
           href="mailto:josh.coss@gmail.com">josh.coss@gmail.com</a> or <router-link to="/contact">through
           here</router-link>.</div>
