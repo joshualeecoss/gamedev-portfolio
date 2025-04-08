@@ -3,15 +3,16 @@
     <h1>Resume</h1>
 
     <div class="paragraph">
-      I'm <strong>John Matrix</strong>, a former Delta Force operative with lots of experience, lots of training and huge muscles.
-      <br />After graduating from kindergarten, I've been enrolled in the army for 25 years, where I learned to destroy things in an amazing number of ways.
-      <br />I joined the Delta Force because I thought it was Greek lessons, but I quickly adapted to this unexpected environment and became a key element.
-      <br />I love teamwork, but I can also go in solo depending on the mission requirements.
+      I'm <strong>Josh Coss</strong>, I am a passionate Gameplay Programmer based in Edmonton, Alberta.
+      <br />After graduating from MacEwan University in 2024 with a bachelor's in Computer 
+      <br />Science (with a specialization in Game Development),
+      <br />I have dedicated a lot of my time to furthering my game dev knowledge and looking for work.
       <br />
-      <br />Right now I'm trying to find inner peace after I've read some personal development books. I'm looking for a monk job so if you have any opportunity feel free to 
+      <br />I'm looking for gameplay programmer positions, so if you have any opportunity (or have
+      <br />any good game dev book reccomendations), feel free to 
       <router-link to="/contact">contact me</router-link>.
       <br />
-      <br />Besides war, I'm passionate about firearms, martial arts, explosions, push-ups and flowers.
+      <br />Besides game development, I'm passionate about playing video games, performing on stage with my comedy group <a href="https://www.sxs5k.ca" target="blank">Success 5000</a>.
 
       <div style="margin-top:20px; margin-bottom:20px;">
         <a class="download-link" href="d/resume-en.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Download as PDF 🇬🇧</a>
@@ -52,22 +53,26 @@
       <h2>Skills</h2>
 
       <div class="skill-set">
-        <h3>Lethal</h3>
-        <SkillRate name="Handguns" :rate="5" />
-        <SkillRate name="Rifles" :rate="5" />
-        <SkillRate name="Shotguns" :rate="5" />
-        <SkillRate name="Machineguns" :rate="5" />
-        <SkillRate name="Missile launchers" :rate="5" />
-        <SkillRate name="Knives" :rate="5" />
-        <SkillRate name="Hand to hand combat" :rate="5" />
+        <h3>Languages</h3>
+        <SkillRate name="C#" />
+        <SkillRate name="Java" />
+        <SkillRate name="JavaScript" />
+        <SkillRate name="GDScript" />
+        <SkillRate name="HTML" />
+        <SkillRate name="CSS" />
       </div>
 
       <div class="skill-set">
-        <h3>Non-lethal</h3>
-        <SkillRate name="Sneaking" :rate="1" />
-        <SkillRate name="Negotiation" :rate="1" />
-        <SkillRate name="Seduction" :rate="1" />
-        <SkillRate name="Sense of humor" :rate="2" />
+        <h3>Gamedev</h3>
+        <SkillRate name="Unity"/>
+        <SkillRate name="Godot"/>
+        <SkillRate name="Aseprite" />
+      </div>
+
+      <div class="skill-set">
+        <h3>Tools</h3>
+        <SkillRate name="VS Code" />
+        <SkillRate name="Git / Github" />
       </div>
       <div style="clear:both" />
 
@@ -172,6 +177,7 @@ h4 {
   text-align: center;
 }
 
+
 @media only screen and (min-width: 620px){
   .paragraph {
     float: left;
@@ -185,7 +191,8 @@ h4 {
 
   .skill-set {
     float: left;
-    padding-right: 60px; 
+    padding-right: 30px;
+    max-width: 230px !important; 
   }
 }
 </style>

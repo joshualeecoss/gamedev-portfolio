@@ -1,13 +1,6 @@
 <template>
-  <div>
-    <div class="skill-name">{{name}}</div>
-
-    <div class="skill-rate">
-      <template v-for="n in 5">
-        <div v-if="n <= rate" class="circle circle-full" :key="`${name}-${n}`"></div>
-        <div v-if="n > rate" class="circle circle-empty" :key="`${name}-${n}`"></div>
-      </template>
-    </div>
+  <div class="skill">
+    <div>{{name}}</div>
     <div class="clear"></div>
   </div>
 </template>
@@ -41,6 +34,13 @@ export default Vue.extend({
   float: left;
   width: 80px;
   padding-top:11px;
+}
+
+.skill {
+  float: left;
+  border: 1px solid hsla(0, 0%, 86.3%, .44);
+  padding: 2px 10px;
+  margin: 5px;
 }
 
 .circle {
